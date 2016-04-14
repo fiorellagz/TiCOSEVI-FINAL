@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.nashyra.ticosevi.Pregunta21"
+    tools:showIn="@layout/activity_pregunta21">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIGUIENTE"
+        android:id="@+id/button29"
+        android:background="#fbf247"
+        android:layout_marginTop="54dp"
+        android:layout_below="@+id/rgPreg21"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Disminuir el consumo de energía y en general los costos operativos de los vehículos es un objetivo de:"
+        android:id="@+id/textView23"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#2e0ad1"
+        android:textStyle="bold"
+        android:textSize="@dimen/item_touch_helper_max_drag_scroll_per_frame"
+        android:textAlignment="center" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView23"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="82dp"
+        android:id="@+id/rgPreg21">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="Seguridad social."
+            android:id="@+id/radioButton54"
+            android:checked="false" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="COSEVI."
+            android:id="@+id/radioButton55"
+            android:checked="false" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="MOPT."
+            android:id="@+id/radioButton56"
+            android:checked="false" />
+    </RadioGroup>
+
+</RelativeLayout>

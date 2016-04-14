@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">TiCOSEVI</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_actividad02">Actividad02</string>
+    <string name="title_activity_actividad_pasos_licencia">ActividadPasosLicencia</string>
+    <string name="title_activity_actividad04_realizar_prueba">Actividad04RealizarPrueba</string>
+    <string name="title_activity_pregunta01">Pregunta01</string>
+    <string name="title_activity_pregunta02">Pregunta02</string>
+    <string name="title_activity_pregunta03">Pregunta03</string>
+    <string name="title_activity_pregunta04">Pregunta04</string>
+    <string name="title_activity_pregunta05">Pregunta05</string>
+    <string name="title_activity_pregunta06">Pregunta06</string>
+    <string name="title_activity_pregunta07">Pregunta07</string>
+    <string name="title_activity_pregunta08">Pregunta08</string>
+    <string name="title_activity_pregunta09">Pregunta09</string>
+    <string name="title_activity_pregunta10">Pregunta10</string>
+    <string name="title_activity_pregunta11">Pregunta11</string>
+    <string name="title_activity_pregunta12">Pregunta12</string>
+    <string name="title_activity_pregunta13">Pregunta13</string>
+    <string name="title_activity_pregunta14">Pregunta14</string>
+    <string name="title_activity_pregunta15">Pregunta15</string>
+    <string name="title_activity_pregunta16">Pregunta16</string>
+    <string name="title_activity_pregunta17">Pregunta17</string>
+    <string name="title_activity_pregunta18">Pregunta18</string>
+    <string name="title_activity_pregunta19">Pregunta19</string>
+    <string name="title_activity_pregunta20">Pregunta20</string>
+    <string name="title_activity_pregunta21">Pregunta21</string>
+    <string name="title_activity_acerca_de">AcercaDE</string>
+</resources>

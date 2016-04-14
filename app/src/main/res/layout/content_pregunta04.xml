@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.nashyra.ticosevi.Pregunta04"
+    tools:showIn="@layout/activity_pregunta04">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIQUIENTE"
+        android:id="@+id/button12"
+        android:textColorLink="#0c0c0c"
+        android:fontFamily="@android:string/unknownName"
+        android:background="#45e718"
+        android:layout_below="@+id/rgPreg4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="62dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Para qué se utilizan las luces bajas?"
+        android:id="@+id/textView6"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#2e0ad1"
+        android:textStyle="bold"
+        android:textSize="@dimen/item_touch_helper_max_drag_scroll_per_frame"
+        android:textAlignment="center"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:id="@+id/rgPreg4">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="Para no encandilar a los demás usuarios de la vía."
+            android:id="@+id/radioButton4" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="Para alertar a los otros conductores y peatones acerca de una condición de emergencia."
+            android:id="@+id/radioButton5" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="Para comunicar a los demás usuarios de la vía la maniobra que va a hacer."
+            android:id="@+id/radioButton6"
+            android:checked="false" />
+    </RadioGroup>
+
+</RelativeLayout>

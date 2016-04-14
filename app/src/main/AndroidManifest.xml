@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nashyra.ticosevi">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Actividad01"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Actividad02"
+            android:label="@string/title_activity_actividad02"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ActividadPasosLicencia"
+            android:label="@string/title_activity_actividad_pasos_licencia"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Actividad04RealizarPrueba"
+            android:label="@string/title_activity_actividad04_realizar_prueba"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Pregunta01"
+            android:label="@string/title_activity_pregunta01"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Pregunta02"
+            android:label="@string/title_activity_pregunta02"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Pregunta03"
+            android:label="@string/title_activity_pregunta03"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Pregunta04"
+            android:label="@string/title_activity_pregunta04"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Pregunta05"
+            android:label="@string/title_activity_pregunta05"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Pregunta06"
+            android:label="@string/title_activity_pregunta06"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Pregunta07"
+            android:label="@string/title_activity_pregunta07"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Pregunta08"
+            android:label="@string/title_activity_pregunta08"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Pregunta09"
+            android:label="@string/title_activity_pregunta09"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Pregunta10"
+            android:label="@string/title_activity_pregunta10"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Pregunta11"
+            android:label="@string/title_activity_pregunta11"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Pregunta12"
+            android:label="@string/title_activity_pregunta12"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Pregunta13"
+            android:label="@string/title_activity_pregunta13"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Pregunta14"
+            android:label="@string/title_activity_pregunta14"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Pregunta15"
+            android:label="@string/title_activity_pregunta15"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Pregunta16"
+            android:label="@string/title_activity_pregunta16"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Pregunta17"
+            android:label="@string/title_activity_pregunta17"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Pregunta18"
+            android:label="@string/title_activity_pregunta18"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Pregunta19"
+            android:label="@string/title_activity_pregunta19"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Pregunta20"
+            android:label="@string/title_activity_pregunta20"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Pregunta21"
+            android:label="@string/title_activity_pregunta21"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AcercaDE"
+            android:label="@string/title_activity_acerca_de"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
