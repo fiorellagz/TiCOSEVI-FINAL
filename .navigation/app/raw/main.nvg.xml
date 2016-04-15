@@ -150,6 +150,14 @@
     <statePointEntry>
       <state      
         class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.nashyra.ticosevi.Mapa"/>
+      <point      
+        x = "3036"      
+        y = "2860"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
         className = "com.example.nashyra.ticosevi.Actividad04RealizarPrueba"/>
       <point      
         x = "1768"      
@@ -202,6 +210,22 @@
       <point      
         x = "4304"      
         y = "4240"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.nashyra.ticosevi.AcercaDE"/>
+      <point      
+        x = "1768"      
+        y = "4240"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.nashyra.ticosevi.EstudiarManual"/>
+      <point      
+        x = "12"      
+        y = "1164"/>
     </statePointEntry>
   </locations>
 </navigationModel>

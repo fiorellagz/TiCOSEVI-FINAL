@@ -8,12 +8,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
-public class Pregunta20 extends AppCompatActivity {
+public class Resultado extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pregunta20);
+        setContentView(R.layout.activity_resultado);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -25,10 +25,10 @@ public class Pregunta20 extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
-        findViewById(R.id.button28).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.button34).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(Pregunta20.this, Resultado.class));
+                startActivity(new Intent(Resultado.this, Actividad02.class));
             }
         });
     }

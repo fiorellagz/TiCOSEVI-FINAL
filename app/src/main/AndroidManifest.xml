@@ -119,6 +119,18 @@
         <activity
             android:name=".AcercaDE"
             android:label="@string/title_activity_acerca_de"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Mapa"
+            android:label="@string/title_activity_mapa"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EstudiarManual"
+            android:label="@string/title_activity_estudiar_manual"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Resultado"
+            android:label="@string/title_activity_resultado"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
