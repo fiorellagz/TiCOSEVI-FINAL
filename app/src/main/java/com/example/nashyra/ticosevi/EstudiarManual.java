@@ -7,13 +7,16 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.webkit.WebSettings;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
 
-public class Pregunta20 extends AppCompatActivity {
+public class EstudiarManual extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pregunta20);
+        setContentView(R.layout.activity_estudiar_manual);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -25,12 +28,13 @@ public class Pregunta20 extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
-        findViewById(R.id.button28).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.button33).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(Pregunta20.this, Resultado.class));
+                startActivity(new Intent(EstudiarManual.this, Actividad02.class));
             }
         });
+
     }
 
 }

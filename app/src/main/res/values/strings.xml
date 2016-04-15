@@ -26,4 +26,7 @@
     <string name="title_activity_pregunta20">Pregunta20</string>
     <string name="title_activity_pregunta21">Pregunta21</string>
     <string name="title_activity_acerca_de">AcercaDE</string>
+    <string name="title_activity_mapa">Mapa</string>
+    <string name="title_activity_estudiar_manual">EstudiarManual</string>
+    <string name="title_activity_resultado">Resultado</string>
 </resources>

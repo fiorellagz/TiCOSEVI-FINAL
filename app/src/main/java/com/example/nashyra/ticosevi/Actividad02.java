@@ -37,6 +37,18 @@ public class Actividad02 extends AppCompatActivity {
                 startActivity(new Intent(Actividad02.this, Actividad04RealizarPrueba.class));
             }
         });
+        findViewById(R.id.button8).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Actividad02.this, Mapa.class));
+            }
+        });
+        findViewById(R.id.button5).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Actividad02.this, EstudiarManual.class));
+            }
+        });
     }
 
 }
