@@ -12,6 +12,7 @@ public class Base extends AppCompatActivity {
     private int malas;
 
 
+
     public void Mensaje(String msg){
         Toast.makeText(getApplicationContext(), msg, Toast.LENGTH_SHORT).show();
     }
